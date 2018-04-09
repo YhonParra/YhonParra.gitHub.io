@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+}
+.img-responsive{
+	width: 100%;
+}
+.container{
+	box-shadow: 0px -24px 2px 1px #ccc;
+}
+.col{
+	padding-left: 15px;
+	color: #19738a;
+	box-shadow: 0px 0px 65px inset;
+	cursor: pointer;
+}
+.active{
+	background-color: #1b7f99;
+}
+h1{
+	text-align: center;
+}
+h4{
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-left: 8%;
+}
+div{
+	text-align: justify;
+}
+.footer{
+	color: white;
+	box-shadow: 0px 0px 40px inset;
+	background: rgb(23, 153, 189);
+}
+.article{
+    margin-top: 15px;
+    margin-bottom:40px;
+}
+.images{
+    width: 250px;
+    height: 250px;  
+}
+.container1 {
+	margin-top: 2px;
+}
+.table{
+	box-shadow: 0px 5px 15px;
+}
+.tatr{
+	transition: 0.7s;
+}
+.tatr:hover{
+background-color: #FFFFFF;
+box-shadow: -20px 5px 55px;
+border-radius: 5px;
+transition: 0.4s;
+transform:scale(1.1);
+font-weight: bold;
+}
+.img-thumbnail{
+	width: 195px;
+	height: 200px;
+	box-shadow: 0px 5px 15px;
+	transition: 0.7s;
+}
+.img-thumbnail:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 5px 15px;
+	transition: 0.4s;
+}
+img.iman{
+	margin: 5px;
+	width: 175px;
+	height: 180px;
+	box-shadow: 0px 5px 15px;
+	transition: 0.3s;
+}
+img.iman:hover {
+	box-shadow: 0px 5px 15px inset;
+}
+img#acti{
+	width: 400px;
+	height: 200px;
+	transition: 1s;
+	box-shadow: 0px 0px 20px;
+
+}
+img#acti:hover {
+	width: 600px;
+	height: 300px;
+	box-shadow: 0px 0px 70px;
+}
